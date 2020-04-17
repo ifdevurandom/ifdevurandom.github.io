@@ -1,3 +1,7 @@
+body{
+	/*background-color:#ffeaa3;*/
+	background-image:url("background/pixel-heart.png");
+}
 h1 {
 	text-align:center;
 	font-family:verdana;
@@ -43,5 +47,31 @@ ore::before{
 ore{
 	font-family:"Lucida Console";
 	font-size:15px;
-	margin-left:50px;
+	margin-left:60px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 80px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
 }
